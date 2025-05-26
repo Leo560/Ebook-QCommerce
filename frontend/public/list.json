@@ -1,0 +1,110 @@
+[
+    {
+        "id":1,
+        "name": "Story Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+   
+    {
+        "id": 2,
+        "name": "Science Wonders",
+        "title": "Discover the mysteries of science and nature.",
+        "price": 15,
+        "category": "Educational",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Adventure Tales",
+        "title": "Embark on thrilling journeys through time and space.",
+        "price": 20,
+        "category": "Fiction",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Cooking 101",
+        "title": "Learn the art of cooking delicious meals.",
+        "price": 10,
+        "category": "Lifestyle",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Business Insights",
+        "title": "Unlock strategies for success in the corporate world.",
+        "price": 25,
+        "category": "Business",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Travel Diaries",
+        "title": "Explore new destinations and cultures.",
+        "price": 18,
+        "category": "Travel",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 7,
+        "name": "Health & Wellness",
+        "title": "Tips and tricks for a healthier lifestyle.",
+        "price": 12,
+        "category": "Health",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 8,
+        "name": "Fantasy Legends",
+        "title": "Dive into realms of magic and mythical creatures.",
+        "price": 22,
+        "category": "Fantasy",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 9,
+        "name": "History",
+        "title": "Uncover the past and its fascinating stories.",
+        "price": 17,
+        "category": "Non-Fiction",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id": 10,
+        "name": "Tech Innovations",
+        "title": "Stay updated with the latest technology trends.",
+        "price": 30,
+        "category": "Technology",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id":11,
+        "name": "Story Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id":12,
+        "name": "Story Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+        
+    },
+        {
+        "id":13,
+        "name": "Story Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740"
+        
+    }
+]
+

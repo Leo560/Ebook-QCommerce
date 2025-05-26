@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&family=Quicksand:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    background-color: white !important;
+  }
+
+  
+  body{
+    font-family: "Poppins", "sans-serif";
+  }
+
+  .modal-custom {
+  background-color: white !important;
+  color: black;
+  width: 600px; 
+  height: 330px; 
+  padding: none;
+  border-radius: 10px;
+}
