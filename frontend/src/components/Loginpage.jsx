@@ -7,7 +7,7 @@ function Loginpage() {
     <>
     
         <div className='flex items-center justify-center min-h-screen bg-gray-100 border shadow-md'>
-        <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md relative">
+        <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md relative text-black">
           <form>
             <button type="button" 
             className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 bg-white text-black" 

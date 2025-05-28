@@ -1,6 +1,8 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import {  Link, useNavigate } from 'react-router-dom'
 import { useForm } from "react-hook-form"
+import axios from 'axios'
+import toast from 'react-hot-toast'
 function Signup() {
      const {
       register,
@@ -8,7 +10,26 @@ function Signup() {
       formState: { errors },
     } = useForm()
 
-   const onSubmit = (data) => console.log(data)
+   const onSubmit =async (data) => {
+    const userInfo= {
+      fullname:data.fullname,
+      email:data.email,
+      password:data.password
+    }
+    await axios.post("http://localhost:3000/user/signup", userInfo)
+    .then((res)=>{
+      console.log(res.data)
+      if(res.data){
+       toast.success('Login Successful!');
+      }
+      localStorage.setItem("Users",JSON.stringify(res.data))
+    }).catch((err)=>{
+      if(err.response){
+        console.log(err)
+          toast.error("Error: ",err.response.data.message);
+      }
+    })
+   }
   const navigate = useNavigate();
 
   return (
@@ -24,9 +45,9 @@ function Signup() {
             <h3 className="font-bold text-lg mb-4 text-black">Sign Up</h3>
             <div className='space-y-2'>
               <label className="block text-black">Name</label>
-              <input type="text" placeholder='Enter your name' className='w-full px-3 py-1 border rounded-md outline-none bg-white text-black' {...register("name", { required: true })}/>
+              <input type="text" placeholder='Enter your name' className='w-full px-3 py-1 border rounded-md outline-none bg-white text-black' {...register("fullname", { required: true })}/>
          <br/>
-         {errors.name && <span className='text-sm text-red-500 '>This field is required</span>}
+         {errors.fullname && <span className='text-sm text-red-500 '>This field is required</span>}
               <label className="block text-black">Email</label>
               <input type="email" placeholder='Enter your email' className='w-full px-3 py-1 border rounded-md outline-none bg-white text-black' {...register("email", { required: true })}/>
          <br/>

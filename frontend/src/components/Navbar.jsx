@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login';
+import { Link } from 'react-router-dom';
+import Logout from './Logout';
+import { useAuth } from '../context/AuthProvider';
 export default function Navbar() {
 
-
+  const [authUser,setAuthUser]=useAuth()
 
   const [sticky,setSticky] = useState(false);
   useEffect(()=>{
@@ -57,7 +60,7 @@ export default function Navbar() {
           {navItems}
       </ul>
     </div>
-    <a className=" text-2xl font-bold cursor-pointer">EpicTome</a>
+    <Link className=" text-2xl font-bold cursor-pointer" to="/">EpicTome</Link>
   </div>
   <div className="navbar-end space-x-3">
   <div className="navbar-center hidden lg:flex">
@@ -81,12 +84,16 @@ export default function Navbar() {
   </svg>
 </label>
   </div>
-  <div className="">
+  {
+    authUser?(<Logout/>):(
+       <div className="">
     <a className="bg-black text-white px-3 py-2 rounded-md duration-300 cursor-pointer "
     onClick={()=>document.getElementById("my_modal_3").showModal()}
     >Login</a>
     <Login/>
-  </div>
+  </div> 
+  )}
+
 </div>
 </div>
 </div> 
